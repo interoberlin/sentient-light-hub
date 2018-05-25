@@ -1,2 +1,6 @@
 rootProject.name = 'sentient-light-hub'
+include 'sentient-light-hub-mapping-engine'
+include 'sentient-light-hub-floor-sensor'
+include 'sentient-light-hub-led-actor'
+include 'sentient-light-hub-common'
 

@@ -1,0 +1,15 @@
+[submodule "sentient-light-hub-common"]
+	path = sentient-light-hub-common
+	url = git@gitlab.intero.berlin:sentient-light/sentient-light-hub/sentient-light-hub-common.git
+[submodule "floor"]
+	path = floor
+	url = git@gitlab.intero.berlin:sentient-light/sentient-light-hub/sentient-light-hub-floor-sensor.git
+[submodule "sentient-light-hub-led-actor"]
+	path = sentient-light-hub-led-actor
+	url = git@gitlab.intero.berlin:sentient-light/sentient-light-hub/sentient-light-hub-led-actor.git
+[submodule "sentient-light-hub-mapping-engine"]
+	path = sentient-light-hub-mapping-engine
+	url = git@gitlab.intero.berlin:sentient-light/sentient-light-hub/sentient-light-hub-mapping-engine.git
+[submodule "sentient-light-hub-floor-sensor"]
+	path = sentient-light-hub-floor-sensor
+	url = git@gitlab.intero.berlin:sentient-light/sentient-light-hub/sentient-light-hub-floor-sensor.git
