@@ -1,6 +1,10 @@
 group 'berlin.intero'
 version '0.2.0'
 
+task cleanAll {
+    dependsOn subprojects.collect { it.tasks.matching { it.name == 'clean' } }
+}
+
 task buildAll(type: Copy) {
     // Clean  and build all subprojects
     dependsOn subprojects.collect { it.tasks.matching { it.name == 'clean' } }
