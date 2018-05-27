@@ -1,3 +1,12 @@
 group 'berlin.intero'
 version '0.2.0'
 
+task buildAll(type: Copy) {
+    // Clean  and build all subprojects
+    dependsOn subprojects.collect { it.tasks.matching { it.name == 'clean' } }
+    dependsOn subprojects.collect { it.tasks.matching { it.name == "bootJar" } }
+
+    // Collect all jar files
+    from subprojects.collect { it.tasks.withType(Jar) }
+    into "$buildDir/libs"
+}
