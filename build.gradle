@@ -1,5 +1,5 @@
 group 'berlin.intero'
-version '0.2.0'
+version '0.3.0'
 
 task cleanAll {
     dependsOn subprojects.collect { it.tasks.matching { it.name == 'clean' } }
