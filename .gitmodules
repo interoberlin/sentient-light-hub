@@ -4,12 +4,15 @@
 [submodule "floor"]
 	path = floor
 	url = git@gitlab.intero.berlin:sentient-light/sentient-light-hub/sentient-light-hub-floor-sensor.git
-[submodule "sentient-light-hub-led-actor"]
-	path = sentient-light-hub-led-actor
-	url = git@github.com:interoberlin/sentient-light-hub-led-actor.git
+[submodule "sentient-light-hub-led-actor-ble"]
+	path = sentient-light-hub-led-actor-ble
+	url = git@github.com:interoberlin/sentient-light-hub-led-actor-ble.git
 [submodule "sentient-light-hub-mapping-engine"]
 	path = sentient-light-hub-mapping-engine
 	url = git@github.com:interoberlin/sentient-light-hub-mapping-engine.git
-[submodule "sentient-light-hub-floor-sensor"]
-	path = sentient-light-hub-floor-sensor
-	url = git@github.com:interoberlin/sentient-light-hub-floor-sensor.git
+[submodule "sentient-light-hub-floor-sensor-ble"]
+	path = sentient-light-hub-floor-sensor-ble
+	url = git@github.com:interoberlin/sentient-light-hub-floor-sensor-ble.git
+[submodule "sentient-light-hub-led-actor-serial"]
+	path = sentient-light-hub-led-actor-serial
+	url = ./sentient-light-hub-led-actor-serial/
