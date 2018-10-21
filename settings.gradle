@@ -3,5 +3,6 @@ include 'sentient-light-hub-mapping-engine'
 include 'sentient-light-hub-floor-sensor-ble'
 include 'sentient-light-hub-led-actor-ble'
 include 'sentient-light-hub-led-actor-serial'
+include 'sentient-light-hub-message-processor'
 include 'sentient-light-hub-common'
 
