@@ -13,3 +13,6 @@
 [submodule "sentient-light-hub-led-actor-serial"]
 	path = sentient-light-hub-led-actor-serial
 	url = git@github.com:interoberlin/sentient-light-hub-led-actor-serial.git
+[submodule "sentient-light-hub-message-processor"]
+	path = sentient-light-hub-message-processor
+	url = git@github.com:interoberlin/sentient-light-hub-message-processor.git
