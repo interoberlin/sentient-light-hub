@@ -19,3 +19,6 @@
 [submodule "sentient-light-hub-message-processor-tree"]
 	path = sentient-light-hub-message-processor-tree
 	url = git@github.com:interoberlin/sentient-light-hub-message-processor-tree.git
+[submodule "sentient-light-hub-wobble"]
+	path = sentient-light-hub-wobble
+	url = ./sentient-light-hub-wobble/
