@@ -6,4 +6,5 @@ include 'sentient-light-hub-led-actor-serial'
 include 'sentient-light-hub-message-processor'
 include 'sentient-light-hub-common'
 include 'sentient-light-hub-message-processor-tree'
+include 'sentient-light-hub-wobble'
 
